@@ -1,0 +1,120 @@
+[
+  {
+    "name": "castle",
+    "object": {
+      "texture": "assets/castle/obj/castle.mtl",
+      "geometry": "assets/castle/obj/castle.obj"
+    },
+
+    "scripts": ["castle.script.ts"]
+  },
+
+  {
+    "name": "terrain",
+    "object": "terrain.object.ts",
+    "scripts": []
+  },
+  {
+    "name": "hero",
+    "object": "hero.object.ts",
+    "scripts": ["hero.script.ts"]
+  },
+  {
+    "type": "procedure",
+    "name": "generate_tree",
+    "scripts": ["tree.procedure.ts"],
+    "objects": [
+      { "geometry": "assets/trees/BirchTree_1.fbx" },
+      { "geometry": "assets/trees/BirchTree_2.fbx" },
+      { "geometry": "assets/trees/BirchTree_3.fbx" },
+      { "geometry": "assets/trees/BirchTree_4.fbx" },
+      { "geometry": "assets/trees/BirchTree_5.fbx" },
+
+      { "geometry": "assets/trees/BushBerries_1.fbx" },
+      { "geometry": "assets/trees/BushBerries_2.fbx" },
+      { "geometry": "assets/trees/Bush_1.fbx" },
+      { "geometry": "assets/trees/Bush_2.fbx" },
+
+      { "geometry": "assets/trees/CactusFlowers_2.fbx" },
+      { "geometry": "assets/trees/CactusFlowers_3.fbx" },
+      { "geometry": "assets/trees/CactusFlowers_4.fbx" },
+      { "geometry": "assets/trees/CactusFlowers_5.fbx" },
+      { "geometry": "assets/trees/CactusFlower_1.fbx" },
+      { "geometry": "assets/trees/Cactus_1.fbx" },
+      { "geometry": "assets/trees/Cactus_2.fbx" },
+      { "geometry": "assets/trees/Cactus_3.fbx" },
+      { "geometry": "assets/trees/Cactus_4.fbx" },
+      { "geometry": "assets/trees/Cactus_5.fbx" },
+      { "geometry": "assets/trees/CommonTree_1.fbx" },
+      { "geometry": "assets/trees/CommonTree_2.fbx" },
+      { "geometry": "assets/trees/CommonTree_3.fbx" },
+      { "geometry": "assets/trees/CommonTree_4.fbx" },
+      { "geometry": "assets/trees/CommonTree_5.fbx" },
+      { "geometry": "assets/trees/CommonTree_Autumn_1.fbx" },
+      { "geometry": "assets/trees/CommonTree_Autumn_2.fbx" },
+      { "geometry": "assets/trees/CommonTree_Autumn_3.fbx" },
+      { "geometry": "assets/trees/CommonTree_Autumn_4.fbx" },
+      { "geometry": "assets/trees/CommonTree_Autumn_5.fbx" },
+
+      { "geometry": "assets/trees/Corn_1.fbx" },
+      { "geometry": "assets/trees/Corn_2.fbx" },
+      { "geometry": "assets/trees/Flowers.fbx" },
+      { "geometry": "assets/trees/Grass.fbx" },
+      { "geometry": "assets/trees/Grass_2.fbx" },
+      { "geometry": "assets/trees/Grass_Short.fbx" },
+      { "geometry": "assets/trees/Lilypad.fbx" },
+      { "geometry": "assets/trees/PalmTree_1.fbx" },
+      { "geometry": "assets/trees/PalmTree_2.fbx" },
+      { "geometry": "assets/trees/PalmTree_3.fbx" },
+      { "geometry": "assets/trees/PalmTree_4.fbx" },
+      { "geometry": "assets/trees/PineTree_1.fbx" },
+      { "geometry": "assets/trees/PineTree_2.fbx" },
+      { "geometry": "assets/trees/PineTree_3.fbx" },
+      { "geometry": "assets/trees/PineTree_4.fbx" },
+      { "geometry": "assets/trees/PineTree_5.fbx" },
+      { "geometry": "assets/trees/PineTree_Autumn_1.fbx" },
+      { "geometry": "assets/trees/PineTree_Autumn_2.fbx" },
+      { "geometry": "assets/trees/PineTree_Autumn_3.fbx" },
+      { "geometry": "assets/trees/PineTree_Autumn_4.fbx" },
+      { "geometry": "assets/trees/PineTree_Autumn_5.fbx" },
+
+      { "geometry": "assets/trees/Plant_1.fbx" },
+      { "geometry": "assets/trees/Plant_2.fbx" },
+      { "geometry": "assets/trees/Plant_3.fbx" },
+      { "geometry": "assets/trees/Plant_4.fbx" },
+      { "geometry": "assets/trees/Plant_5.fbx" },
+      { "geometry": "assets/trees/Rock_1.fbx" },
+      { "geometry": "assets/trees/Rock_2.fbx" },
+      { "geometry": "assets/trees/Rock_3.fbx" },
+      { "geometry": "assets/trees/Rock_4.fbx" },
+      { "geometry": "assets/trees/Rock_5.fbx" },
+      { "geometry": "assets/trees/Rock_6.fbx" },
+      { "geometry": "assets/trees/Rock_7.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_1.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_2.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_3.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_4.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_5.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_6.fbx" },
+      { "geometry": "assets/trees/Rock_Moss_7.fbx" },
+
+      { "geometry": "assets/trees/TreeStump.fbx" },
+      { "geometry": "assets/trees/TreeStump_Moss.fbx" },
+
+      { "geometry": "assets/trees/Wheat.fbx" },
+      { "geometry": "assets/trees/Willow_1.fbx" },
+      { "geometry": "assets/trees/Willow_2.fbx" },
+      { "geometry": "assets/trees/Willow_3.fbx" },
+      { "geometry": "assets/trees/Willow_4.fbx" },
+      { "geometry": "assets/trees/Willow_5.fbx" },
+      { "geometry": "assets/trees/Willow_Autumn_1.fbx" },
+      { "geometry": "assets/trees/Willow_Autumn_2.fbx" },
+      { "geometry": "assets/trees/Willow_Autumn_3.fbx" },
+      { "geometry": "assets/trees/Willow_Autumn_4.fbx" },
+      { "geometry": "assets/trees/Willow_Autumn_5.fbx" },
+
+      { "geometry": "assets/trees/WoodLog.fbx" },
+      { "geometry": "assets/trees/WoodLog_Moss.fbx" }
+    ]
+  }
+]
